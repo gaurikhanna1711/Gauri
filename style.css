@@ -47,7 +47,7 @@ body {
 /* Using box shadows to create 3D effects */
 #calculator {
  position: absolute;
-    transform: translateX(366%) translateY(80%);
+    transform: translateX(366%) translateY(100%);
 	width: 325px;
 	height: 100px auto;
 	
