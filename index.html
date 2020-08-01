@@ -8,7 +8,34 @@
         <title>Budgety</title>
     </head>
     <body>
-        
+          <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        <div id="calculator">
+	<!-- Screen and clear key -->
+	<div class="topa">
+		<span class="clear">C</span>
+		<div class="screen"></div>
+	</div>
+	
+	<div class="keys">
+		<!-- operators and other keys -->
+		<span>7</span>
+		<span>8</span>
+		<span>9</span>
+		<span class="operator">+</span>
+		<span>4</span>
+		<span>5</span>
+		<span>6</span>
+		<span class="operator">-</span>
+		<span>1</span>
+		<span>2</span>
+		<span>3</span>
+		<span class="operator">÷</span>
+		<span>0</span>
+		<span>.</span>
+		<span class="eval">=</span>
+		<span class="operator">x</span>
+	</div>
+</div>
         <div class="top">
             <div class="budget">
                 <div class="budget__title">
@@ -99,7 +126,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="item clearfix" id="expense-1">
                             <div class="item__description">Grocery shopping</div>
                             <div class="right clearfix">
