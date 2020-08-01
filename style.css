@@ -46,19 +46,17 @@ body {
 
 /* Using box shadows to create 3D effects */
 #calculator {
-    position: absolute;
-    top: 15%;
-    left: 2%;
-    transform: translateX(340%) translateY(100%);
+ position: absolute;
+    transform: translateX(366%) translateY(80%);
 	width: 325px;
 	height: 100px auto;
 	
 	margin: 0px ;
-	padding: 50px 20px 20px;
+	padding: 10px 10px 0px;
 	
 	background: #9dd2ea;
 	background: linear-gradient(#9dd2ea, #8bceec);
-	border-radius: 3px;
+	border-radius: 0px;
 	box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0, 0, 0, 0.2);
 }
 
